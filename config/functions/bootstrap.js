@@ -1,7 +1,7 @@
 // "use strict";
 const axios = require("axios");
 const Coins = require("./Mongodb-2.json");
-var fs = require("fs");
+// var fs = require("fs");
 /**
  * An asynchronous bootstrap function that runs before
  * your application gets started.
