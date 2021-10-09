@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "coingecko-api": "^1.0.10",
-    "pg": "^8.7.1",
-    "pg-connection-string": "^2.5.0",
     "strapi": "3.6.7",
     "strapi-admin": "3.6.7",
     "strapi-connector-mongoose": "3.6.7",
@@ -31,7 +29,7 @@
     "uuid": "32a3648a-79ff-47da-af99-ed73653e1bd3"
   },
   "engines": {
-    "node": "14.15.4",
+    "node": "12.19.0",
     "npm": "^6.0.0"
   },
   "license": "MIT"
