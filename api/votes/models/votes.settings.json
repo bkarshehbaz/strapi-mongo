@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "votes",
+  "info": {
+    "name": "votes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "voterid": {
+      "type": "string"
+    },
+    "coinid": {
+      "type": "string"
+    }
+  }
+}

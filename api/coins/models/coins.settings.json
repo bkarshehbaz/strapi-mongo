@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coins",
+  "info": {
+    "name": "coins",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "promoted": {
+      "type": "boolean"
+    },
+    "marketcap": {
+      "type": "float"
+    },
+    "totalvotes": {
+      "type": "integer"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "totalVolume": {
+      "type": "string"
+    },
+    "launch": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "hour": {
+      "type": "string"
+    },
+    "oneday": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "telegram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "addresscode": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "coinId": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}
