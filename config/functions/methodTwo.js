@@ -1,6 +1,11 @@
 // "use strict";
 const axios = require("axios");
 const Coins = require("./AllCoinsDAtaFromCoge.json");
+
+// mongodb+srv://bkar:<password>@cluster0.d8sxr.mongodb.net/test
+
+
+
 /**
  * An asynchronous bootstrap function that runs before
  * your application gets started.
